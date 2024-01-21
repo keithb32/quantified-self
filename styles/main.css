@@ -1,0 +1,70 @@
+:root {
+    --bg-light: #53cbfb;
+    --font-light: #fffff0;
+    --font-dark: #000000;
+    --border-color-dark: #000000;
+    --card-bg-light: #ffffff;
+}
+
+html, body {
+    height: 100%;
+}
+
+#navbar-logo{
+    width: 142px;
+    height: 48px;
+}
+
+#profile-picture{
+    width: 128px;
+    height: 128px;
+    display: block;
+    border-radius: 50%;
+}
+
+#stats-list{
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.hover-bg-gray:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.form-control:focus {
+    border-color: #6e6e6e;
+    box-shadow: 0 0 8px #6e6e6e;
+}
+
+.nav-text{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover{
+    color: #6e6e6e;
+}
+
+.dropdown-item:active { 
+    background-color: gray;
+}
+
+.edit-button{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 768px){
+    .w-sm-100 {
+        width: 100% !important;
+    }
+}
+
+button{
+    border:none;
+    background:none;
+    padding:0;
+    text-align:left; 
+}

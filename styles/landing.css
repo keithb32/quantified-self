@@ -1,0 +1,21 @@
+body {
+    background-color: var(--bg-light);
+    visibility: hidden;
+}
+
+#header {
+    color: var(--font-light);
+}
+
+.form-control:focus {
+    border-color: var(--bg-light);
+    box-shadow: 0 0 8px var(--bg-light);
+}
+
+#login-card{
+    max-width: 500px;
+}
+
+#color-picker{
+    cursor: pointer;
+}
